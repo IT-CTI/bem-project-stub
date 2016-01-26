@@ -1,0 +1,198 @@
+{
+    "fileExtensions": [".js"],
+
+    "excludeFiles": [
+        "build/**",
+        "bundles/**",
+        "node_modules/**",
+        ".enb/**",
+        ".bem/**",
+        "lib/**",
+        "libs/**",
+        "docs/**",
+        "examples/**",
+        "project_history/**",
+        "resources/**",
+
+        "app/**/*.libs.js",
+        "app/**/*.deps.js",
+
+        "app/templates.bundles/**/*.jst-bemjson.bemdecl.js",
+        "app/templates.bundles/**/*.jst-bh.js",
+        "app/templates.bundles/**/*.js",
+
+        "app/common-vendors.blocks/**/*.bemdecl.js",
+        "app/common-vendors.blocks/**/*.js",
+
+        "markup/**/*.bemdecl.js",
+        "markup/**/*.bh.js",
+        "markup/**/*.deps.js",
+        "markup/**/*.js",
+        "markup/**/*.jst.js",
+        "markup/**/*.libs.js",
+
+        ".jshint-groups.js",
+
+        "specs/**/*.js"
+    ],
+
+
+    "requireCurlyBraces": [
+        "if",
+        "else",
+        "for",
+        "while",
+        "do",
+        "switch",
+        "try",
+        "catch",
+        "finally"
+    ],
+
+    "requireSpaceAfterKeywords": [
+        "if",
+        "else",
+        "for",
+        "while",
+        "do",
+        "switch",
+        "return",
+        "function",
+        "catch",
+        "try",
+        "finally",
+        "throw"
+    ],
+
+    "requireOperatorBeforeLineBreak": [
+        "?",
+        "=",
+        "+",
+        "-",
+        "/",
+        "*",
+        "==",
+        "===",
+        "!=",
+        "!==",
+        ">",
+        ">=",
+        "<",
+        "<="
+    ],
+
+    "disallowKeywords": [
+        "with"
+    ],
+
+    "disallowKeywordsOnNewLine": [
+        "else",
+        "catch",
+        "finally"
+    ],
+
+    "disallowSpaceAfterPrefixUnaryOperators": true,
+    "disallowSpaceBeforePostfixUnaryOperators": [
+        "++",
+        "--"
+    ],
+
+    "requireSemicolons": true,
+
+    "requireSpaceBetweenArguments": true,
+
+    "requireBlocksOnNewline": true,
+
+    "disallowTrailingComma": true,
+
+    "requireCamelCaseOrUpperCaseIdentifiers": true,
+
+    "requireCapitalizedConstructors": true,
+
+    "requireMultipleVarDecl": true,
+
+    "requireSpaceBeforeBinaryOperators": true,
+    "requireSpaceAfterBinaryOperators": true,
+
+    "requireSpaceBeforeBlockStatements": true,
+
+    "disallowSpacesInsideParentheses": true,
+    "disallowEmptyBlocks": true,
+
+    "requireParenthesesAroundIIFE": true,
+
+    "requireSpacesInFunctionDeclaration": {
+        "beforeOpeningCurlyBrace": true
+    },
+
+    "disallowSpacesInFunctionDeclaration": {
+        "beforeOpeningRoundBrace": true
+    },
+
+    "requireSpacesInAnonymousFunctionExpression": {
+        "beforeOpeningRoundBrace": true,
+        "beforeOpeningCurlyBrace": true
+    },
+
+    "disallowSpacesInNamedFunctionExpression": {
+        "beforeOpeningRoundBrace": true
+    },
+
+    "requireSpacesInNamedFunctionExpression": {
+        "beforeOpeningCurlyBrace": true
+    },
+
+    "requireSpacesInConditionalExpression": {
+        "afterTest": true,
+        "beforeConsequent": true,
+        "afterConsequent": true,
+        "beforeAlternate": true
+    },
+
+    "disallowSpaceBeforeBinaryOperators": [
+        ","
+    ],
+
+    "requirePaddingNewLinesBeforeLineComments": { "allExcept": "firstAfterCurly" },
+
+    "requireSpaceAfterLineComment": { "allExcept": ["#", "=", "**"] },
+
+    "requireCommaBeforeLineBreak": true,
+
+    "validateQuoteMarks": "'",
+
+    "disallowMultipleLineStrings": true,
+
+    "disallowImplicitTypeConversion": ["numeric", "boolean", "string"],
+
+    "disallowYodaConditions": true,
+
+    "disallowSpacesInsideArrayBrackets": true,
+
+    "requireDotNotation": "except_snake_case",
+
+    "disallowSpaceAfterObjectKeys": true,
+
+    "disallowSpacesInsideObjectBrackets": true,
+
+    "disallowQuotedKeysInObjects": "allButReserved",
+
+    "validateJSDoc": {
+        "checkParamNames": true,
+        "requireParamTypes": true,
+        "requireReturnTypes": true,
+        "checkRedundantParams": true
+    },
+
+    "maximumLineLength": 120,
+
+    "disallowMultipleLineBreaks": true,
+
+    "disallowMixedSpacesAndTabs": true,
+
+    "disallowTrailingWhitespace": true,
+
+    "validateLineBreaks": "LF",
+
+    "safeContextKeyword": ["self", "that"]
+}
